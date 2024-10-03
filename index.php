@@ -203,7 +203,20 @@ font-family: 'Calibri';
 }
 
 
+.animated-button {
+            /* Couleur initiale */
+           
+            border: none;
+            
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
 
+        /* Changement de couleur et agrandissement au survol */
+        .animated-button:hover {
+            background-color: black; /* Couleur au survol */
+            transform: scale(1.1); /* Agrandissement */
+        }
 
 
 
@@ -229,6 +242,7 @@ font-family: 'Calibri';
 }
 
     </style>
+
 </head>
 <body>
     <!-- Navbar -->
@@ -284,22 +298,23 @@ font-family: 'Calibri';
         <img src="superkids.jpg" style="width: 500px; height: 500 PX;">
     </div>
     <div style="margin-left: 40px;">
-        <b><p style="color: gray;"  id="jm"> <font size="5px">Le </font></font><b><font size="7px" color="red">C</font></b><b style="color: gray;">OLLEGE </b> <font size="6px" color="red">J</font></b><b>EAN de la </b><b><font size="6px" color="red">M</font></b>    <b style="color: gray;">ENNAIS</b> <b>est un établissement d'enseignement situé à Man, en Côte d'Ivoire.  Fondé en 1954 par la congrégation religieuse des Frères de l'Instruction Chrétienne de Ploërmel. Cette congrégation a été fondée par l'abbé Jean-Marie de la Mennais et Gabriel Deshayes en France au XIXe siècle, avec une mission d'éduquer les jeunes, en particulier ceux issus de milieux modestes, tout en leur inculquant des valeurs chrétiennes. 
+        <b><p style="color: gray;"  id=""> <font size="5px">Le </font></font><b><font size="7px" color="red">C</font></b><b style="color: gray;">OLLEGE </b> <font size="6px" color="red">J</font></b><b>EAN de la </b><b><font size="6px" color="red">M</font></b>    <b style="color: gray;">ENNAIS</b> <b>est un établissement d'enseignement situé à Man, en Côte d'Ivoire.  Fondé en 1954 par la congrégation religieuse des Frères de l'Instruction Chrétienne de Ploërmel. Cette congrégation a été fondée par l'abbé Jean-Marie de la Mennais et Gabriel Deshayes en France au XIXe siècle, avec une mission d'éduquer les jeunes, en particulier ceux issus de milieux modestes, tout en leur inculquant des valeurs chrétiennes. 
             <br> <br>
 
 Le Collège Jean de la Mennais offre une éducation de qualité, alliant formation académique et développement moral et spirituel. Les infrastructures modernes de l'école soutiennent un cadre d'apprentissage adapté à la formation de futurs leaders. Les programmes académiques <b><a href="presentation.php" style="text-decoration: none; color: red; size:7px;"> voir plus...</a> </b><br><br>
-<a href="presentation.php" style="text-decoration: none; color: white;"> <button id="start-btn" style="background-color: red;  border-radius: 50px; font-size: 20PX; height: 50px; width: 180px;font-family: Calibri; margin-left: 150px; color: white; "class="button-pulse"   > <b>VOIR PLUS <i class="bi bi-arrow-right-circle"></i></button></a></b>
+<a href="presentation.php" style="text-decoration: none; color: white;"> <button  style="background-color: red;  border-radius: 50px; font-size: 20PX; height: 50px; width: 180px;font-family: Calibri; margin-left: 150px; color: white; "class="animated-button"   > <b>VOIR PLUS <i class="bi bi-arrow-right-circle"></i></button></a></b>
 
 
 </p>
 </b>
     </div>
 </div>
-<br><br>
+<br><br><br><br>
 <b><div style="background-color:black; color: white; align-content: center;" ><br><br>
-    <center><h1 > Vous désiriez faire une admission?</h1><br>
+    <center><h1 > Désiriez-Vous Fréquenter au Collège Jean de la Mennais ?</h1><br>
+        <font size="5px"><p > Contactez nous!</p></font><br><br>
 
-  <a href="presentation.php" style="text-decoration: none; color: white;"> <button id="start-btn" style="background-color: red;  border-radius: 50px; font-size: 20PX; height: 50px; width: 200px;font-family: Calibri;  color: white; border-style: none; " > <b>PRENDRE UN RDV <i class="bi bi-whatsapp"></i></b></button></a></b></center>
+  <a href="presentation.php" style="text-decoration: none; color: white;"> <button class="animated-button" style="background-color: darkred;  border-radius: 50px; font-size: 20PX; height: 80px; width: 200px;font-family: Calibri;  color: white; border-style: none; " > <b>PRENDRE UN RDV <i class="bi bi-whatsapp"></i></b></button></a></b></center>
   <br>  <br>    
 
 </div>
@@ -311,45 +326,77 @@ Le Collège Jean de la Mennais offre une éducation de qualité, alliant formati
   <div id="miss">
     <br><br><br>
     <div class="container text-center my-5"  style="border-style: orangered; border-color: red; border-radius: 200px;background-image: url('Sans titre.jpg'); color: white; animation: rotateIn 0.5s ease-in-out;"><br>
-<br><b><u><h1  >Notre Mission</h1></u></b><font size="4.8px"> <p  >
+<br><b><u><h1  >Notre Mission</h1></u></b><font size="4.8px"> <p >
             Nous sommes engagés à fournir un environnement d'apprentissage de qualité qui prépare nos élèves pour un avenir brillant. <br>
             Nos enseignants qualifiés et nos infrastructures modernes garantissent un développement optimal de nos élèves.
         </p></font><br>
-    </div>
+    </div><br><br><br><br><br>
     
-<div class="container"  style=" background-image: url('StockCake-Abstract geometric art_1727873730.jpg'); background-size: max(10, 10);"><br><br>
-    <div class="row">
+<div class=""  style=" background-image: url('StockCake-Abstract Geometric Art_1727874380.jpg'); "><br><br>
+    <div class=""><br>
+
+        <center> <b><h1 style="background-color: white; color: red;" class="typing-animation">    MOT DU DIRECTEUR</h1></b><br><br><br></center>
         <!-- Mot du Directeur -->
-        <div class="col-md-6 d-flex flex-column align-items-center"style="background-color: white; border-color: red; border-radius: 40px; border-style: solid; height: 380PX; width: 400PX;" >
-            <img src="20a1ac12-af9d-473d-9829-8615a5e056aa.jfif" alt="Photo du Directeur" class="img-fluid rounded-circle" style="width: 150px; height: 160px;">
-            <h3 class="section-title">Mot du Directeur</h3>
-            <p class="section-content">
-                "Au Collège Jean de la Mennais, notre mission est d'accompagner <br>nos jeunes dans leur parcours académique et humain. 
-                Ensemble, nous formons des leaders de demain,<br> capables de relever les défis du monde moderne."
-            </p>
-        </div></div>
-<br>	<br> <br>
+        <center><div class="col-md-6 d-flex flex-column align-items-center"style="background-color: red; border-radius: 60px;  height: 490PX; width: 400PX;color: white;border-color: white;  box-shadow: 0 4px 8px rgba(0, 0, 10, 2);" ><br>
+
+            <img src="20a1ac12-af9d-473d-9829-8615a5e056aa.jfif" alt="Photo du Directeur" class="img-fluid rounded-circle" style="width: 160px; height: 160px;">
+            <h2>M. Jean Phillipe Dagnitchié</h2>
+            <button style="height: 2px;width: 220PX;border-color: white; background-color: white;"></button><br> 
+            
+            <p style="font-family: Verdana; " >
+                Au Collège Jean de la Mennais, notre mission est d'accompagner nos élèves dans leur parcours académique et humain. 
+                Ensemble, nous formons des leaders de demain, capables de relever les défis du monde moderne.</p>
+        </div>
+    </center>
+    <br>    <br>    <br><br><br>
+
+   <center> <b><h1 style="background-color: white; color: red;" class="typing-animation">    NOS ALUMNIS TEMOIGNENT</h1></b><br><br><br></center>
         <!-- Nos Alumni -->
-        <div class="col-md-6 d-flex flex-column align-items-center"style="background-color: white; border-color: red;border-radius: 40px; border-style: solid; height: 380PX; width: 400PX;">
-        	
-            <img src="images.jfif" alt="Photo d'Alumni" class="img-fluid rounded-circle" style="width: 150px; height: 170px;">
-            <h3 class="section-title" >Nos Alumni</h3>
-            <p class="section-content">
-                Le collège Catholique Jean de la Mennais m'a permis d'acquerir des compétences et des valeurs humaines, qui m'ont permis aujourd'hui d'exceller dans le monde professionel
-            </p>
+           <div class="d-flex align-items-center">
+
+    <div style="background-color: red; border-radius: 60px;  height: 490PX; width: 400PX;color: white;border-color: white;  box-shadow: 0 4px 8px rgba(0, 0, 10, 2); margin-left: 50px; " ><br>
+
+           <center> <img src="images.jfif" alt="alumni" class="img-fluid rounded-circle" style="width: 160px; height: 160px;">
+            <h2>Marie-Lyne Akouabé</h2>
+            <button style="height: 2px;width: 220PX;border-color: white; background-color: white;"></button><br> 
+            <br>    
+            <p style="font-family: Verdana; " >
+               Mon aventure au C J M à été captivante et m'a beaucoup aidé dans mon parcours universitaire.
+           je recommande vivement cette établissement.</p></center>
+        </div>
+          
+    <br>
+
+ 
+    <div class=""style="background-color: red; border-radius: 60px;  height: 490PX; width: 400PX;color: white;border-color: white;  box-shadow: 0 4px 8px rgba(0, 0, 10, 2); margin-left: 190px; " ><br>
+
+           <center> <img src="téléchargement (9).jfif" alt="alumni" class="img-fluid rounded-circle" style="width: 160px; height: 160px;">
+            <h2>Jean-Marcelin Gbeu</h2>
+            <button style="height: 2px;width: 220PX;border-color: white; background-color: white;"></button><br> <br>   
+            
+            <p style="font-family: Verdana; " >
+               Au Collège Jean de la Mennais de man
+           j'ai reçu la meilleure formation collégiale qui puisse exister.
+       Grace à mon passage dans cet Etablissement j'ai pu obtenir mon visa facilement pour le CANADA et aujourd'hui.
+</p></center>
+<br><br>
         </div>
     </div>
-     <br>	<br>	
+<br><br>    
 </div>
+</div>
+  <br><br>     
+
 
 
     <!-- Section Connexion -->
     <div class="container container-box" id="connexion">
-        <h2 class="section-title">Connexion</h2>
-        <form id="loginForm" action="login_process.php" method="POST">
+        <br>    
+        <center><h1 class="section-title" style="color: red;">Connexion</h2>
+        <form id="loginForm" action="login_process.php" method="POST" >
             <div class="mb-3">
-                <label for="email" class="form-label">Email :</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Entrer votre email" required>
+                <label for="Matricule" class="form-label">Matricule :</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Entrer votre Matricule" required>
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Mot de passe :</label>
@@ -358,6 +405,7 @@ Le Collège Jean de la Mennais offre une éducation de qualité, alliant formati
             <div class="d-grid gap-2">
                 <button type="submit" class="btn btn-primary">Se connecter</button>
             </div>
+            </center>
         </form>
     </div>
 
